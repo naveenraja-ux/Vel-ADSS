@@ -49,6 +49,7 @@ export default function CustomWoodwork() {
             alt="Custom Woodwork"
             className="w-full h-full object-cover luxury-glow"
             referrerPolicy="no-referrer"
+            loading="lazy"
           />
           <div className="absolute -bottom-8 -left-8 glass-card p-8 hidden md:block border border-primary/20">
             <p className="text-3xl font-bold text-primary mb-1">15+</p>

@@ -43,9 +43,11 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <Button className="btn-primary-modern hidden sm:flex">
-            Get Consultation
-          </Button>
+          <a href="#contact" className="hidden sm:flex">
+            <Button className="btn-primary-modern">
+              Get Consultation
+            </Button>
+          </a>
           
           <button 
             className="md:hidden text-primary p-2"
@@ -76,12 +78,11 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
-            <Button 
-              className="btn-primary-modern mt-4"
-              onClick={() => setIsOpen(false)}
-            >
-              Get Consultation
-            </Button>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              <Button className="btn-primary-modern mt-4">
+                Get Consultation
+              </Button>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>

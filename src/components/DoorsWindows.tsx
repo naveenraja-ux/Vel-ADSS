@@ -46,6 +46,7 @@ export default function DoorsWindows() {
               transition={{ duration: 1, ease: "easeInOut" }}
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
+              loading="lazy"
             />
           </AnimatePresence>
           <div className="absolute -top-6 -right-6 w-24 h-24 bg-primary/20 blur-2xl rounded-full" />

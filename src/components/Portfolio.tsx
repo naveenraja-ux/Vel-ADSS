@@ -88,6 +88,7 @@ export default function Portfolio() {
               alt={project.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-background/80 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center">
               <span className="text-primary text-xs uppercase tracking-widest mb-2 lg:transform lg:translate-y-4 lg:group-hover:translate-y-0 transition-transform duration-500">
@@ -96,9 +97,11 @@ export default function Portfolio() {
               <h3 className="text-2xl font-bold mb-4 lg:transform lg:translate-y-4 lg:group-hover:translate-y-0 transition-transform duration-500 delay-75">
                 {project.title}
               </h3>
-              <button className="text-sm font-semibold border-b border-primary text-primary lg:transform lg:translate-y-4 lg:group-hover:translate-y-0 transition-transform duration-500 delay-150">
-                View Project
-              </button>
+              <a href="#work">
+                <button className="text-sm font-semibold border-b border-primary text-primary lg:transform lg:translate-y-4 lg:group-hover:translate-y-0 transition-transform duration-500 delay-150">
+                  View Project
+                </button>
+              </a>
             </div>
           </motion.div>
         ))}

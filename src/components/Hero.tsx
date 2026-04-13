@@ -44,12 +44,16 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex flex-wrap justify-start gap-5 md:gap-8"
           >
-            <Button className="btn-primary-modern">
-              Get Free Consultation
-            </Button>
-            <Button variant="outline" className="btn-outline-modern">
-              View Projects
-            </Button>
+            <a href="#contact">
+              <Button className="btn-primary-modern">
+                Get Free Consultation
+              </Button>
+            </a>
+            <a href="#work">
+              <Button variant="outline" className="btn-outline-modern">
+                View Projects
+              </Button>
+            </a>
           </motion.div>
         </motion.div>
 
