@@ -39,6 +39,7 @@ export default function ContactCTA() {
                 <div className="space-y-4 mt-4">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-4 p-4 glass-card border border-primary/10 hover:border-primary/30 transition-all duration-300">
                     <div className="flex-grow">
+                      <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold mb-1">Mani Kannan</p>
                       <p className="text-xl font-bold">7339231430</p>
                     </div>
                     <div className="flex gap-3">
@@ -61,6 +62,7 @@ export default function ContactCTA() {
 
                   <div className="flex flex-col sm:flex-row sm:items-center gap-4 p-4 glass-card border border-primary/10 hover:border-primary/30 transition-all duration-300">
                     <div className="flex-grow">
+                      <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold mb-1">Abilash</p>
                       <p className="text-xl font-bold">8056314349</p>
                     </div>
                     <div className="flex gap-3">
