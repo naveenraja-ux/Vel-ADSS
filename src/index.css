@@ -55,18 +55,18 @@
     --card-foreground: #FFFFFF;
     --popover: #0A0A0A;
     --popover-foreground: #FFFFFF;
-    --primary: #F3CA88;
+    --primary: #FAD16F;
     --primary-foreground: #020202;
     --secondary: #1A1A1A;
     --secondary-foreground: #FFFFFF;
     --muted: #1A1A1A;
     --muted-foreground: #BFBFBF;
-    --accent: #F3CA88;
+    --accent: #FAD16F;
     --accent-foreground: #020202;
     --destructive: #FF4444;
     --border: #1A1A1A;
     --input: #1A1A1A;
-    --ring: #F3CA88;
+    --ring: #FAD16F;
     --radius: 0.5rem;
 }
 
@@ -90,26 +90,26 @@
 }
 
 .luxury-glow {
-  box-shadow: 0 0 20px rgba(243, 202, 136, 0.1);
+  box-shadow: 0 0 20px rgba(250, 209, 111, 0.1);
 }
 
 .luxury-glow-hover:hover {
-  box-shadow: 0 0 30px rgba(243, 202, 136, 0.2);
+  box-shadow: 0 0 30px rgba(250, 209, 111, 0.2);
 }
 
 .glass-card {
   background: rgba(15, 15, 15, 0.4);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(243, 202, 136, 0.08);
+  border: 1px solid rgba(250, 209, 111, 0.08);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .btn-primary-modern {
-  @apply relative overflow-hidden transition-all duration-500 ease-out bg-primary text-background font-bold uppercase tracking-widest text-[10px] h-12 px-8 rounded-full hover:shadow-[0_0_25px_rgba(243,202,136,0.4)] hover:scale-[1.02] active:scale-[0.98];
+  @apply relative overflow-hidden transition-all duration-500 ease-out bg-primary text-background font-bold uppercase tracking-widest text-[10px] h-12 px-8 rounded-full hover:shadow-[0_0_25px_rgba(250,209,111,0.4)] hover:scale-[1.02] active:scale-[0.98];
 }
 
 .btn-outline-modern {
-  @apply relative overflow-hidden transition-all duration-500 ease-out border border-primary/30 text-primary font-bold uppercase tracking-widest text-[10px] h-12 px-8 rounded-full hover:bg-primary hover:text-background hover:shadow-[0_0_25px_rgba(243,202,136,0.3)] hover:scale-[1.02] active:scale-[0.98];
+  @apply relative overflow-hidden transition-all duration-500 ease-out border border-primary/30 text-primary font-bold uppercase tracking-widest text-[10px] h-12 px-8 rounded-full hover:bg-primary hover:text-background hover:shadow-[0_0_25px_rgba(250,209,111,0.3)] hover:scale-[1.02] active:scale-[0.98];
 }
 
 .btn-primary-modern::before, .btn-outline-modern::before {

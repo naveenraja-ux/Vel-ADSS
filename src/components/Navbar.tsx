@@ -23,7 +23,7 @@ export default function Navbar() {
       >
         <div className="flex items-center">
           <img 
-            src="https://acute-olive-w8rmhzqnff.edgeone.app/Logo%201%20(2).png" 
+            src="https://weary-apricot-kua2k00c9n.edgeone.app/Group%2018.png" 
             alt="Vel ADSS Logo" 
             className="h-10 md:h-12 w-auto object-contain"
             referrerPolicy="no-referrer"
